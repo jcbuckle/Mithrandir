@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istari Guard Domain Portfolio - For Sale</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for the button effect */
+        .buy-now-button {
+            transition: all 0.2s ease-in-out;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+        }
+        .buy-now-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex items-center justify-center font-sans p-4">
+    <div class="max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden p-6 md:p-10 border-t-8 border-indigo-600">
+        
+        <!-- Header & Price -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+                ISTARI GUARD DOMAIN PORTFOLIO
+            </h1>
+            <p class="mt-2 text-xl text-indigo-600 font-semibold">
+                Four Strategic Names - One Exclusive Bundle
+            </p>
+            <div class="mt-6 p-4 bg-indigo-50 border-2 border-indigo-200 rounded-lg">
+                <p class="text-2xl font-bold text-gray-800">
+                    Bundle Price (4 Domains): <span class="text-red-700">$19,999 USD</span>
+                </p>
+            </div>
+        </header>
+
+        <!-- Domain List -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-800 border-b pb-2 mb-4">Domains in Bundle:</h2>
+            <ul class="space-y-3 text-lg text-gray-700">
+                <li class="flex items-start">
+                    <span class="mr-3 text-indigo-600 font-bold text-xl">→</span>
+                    <div>
+                        <span class="font-semibold">mithrandir.world</span> (Flagship Brand)
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <span class="mr-3 text-indigo-600 font-bold text-xl">→</span>
+                    <div>
+                        <span class="font-semibold">olorin.shop</span> (E-Commerce Ready)
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <span class="mr-3 text-indigo-600 font-bold text-xl">→</span>
+                    <div>
+                        <span class="font-semibold">tharkun.net</span> (Infrastructure/Utility)
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <span class="mr-3 text-indigo-600 font-bold text-xl">→</span>
+                    <div>
+                        <span class="font-semibold">incanus.org</span> (Advocacy/Community)
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Narrative Description -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-800 border-b pb-2 mb-4">The Strategic Narrative:</h2>
+            <p class="text-gray-700 leading-relaxed text-lg">
+                This exclusive portfolio is only sold as a complete bundle. The names represent the **four primary aliases of Gandalf**, the best-known of the Istari (the Wizards). They offer a powerful, cohesive brand narrative against surveillance, oversight, or control—a perfect counter-brand to concepts like "Palantir." These names provide instant, global recognition and strategic differentiation.
+            </p>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="text-center">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Ready to Secure the Istari Guard?</h2>
+            <p class="text-gray-600 mb-6">
+                The bundle is exclusively listed on the Afternic marketplace for secure, fast transaction handling.
+            </p>
+            <!-- IMPORTANT: This links to the domain you left pointing to Afternic -->
+            <a href="https://olorin.shop" target="_blank" class="buy-now-button inline-block px-12 py-4 text-xl font-bold text-white bg-green-600 hover:bg-green-700 rounded-full uppercase tracking-wider">
+                Proceed to Secure Purchase
+            </a>
+            <p class="mt-4 text-sm text-gray-500">All transactions are handled securely via Escrow and Afternic.</p>
+        </section>
+
+        <!-- Seller Contact -->
+        <footer class="mt-10 pt-6 border-t border-gray-200 text-center text-sm text-gray-500">
+            <p>Direct Seller Contact: <span class="font-medium text-gray-700">jcb817832000@gmail.com</span> (For initial inquiries only)</p>
+        </footer>
+    </div>
+</body>
+</html>
