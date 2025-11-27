@@ -3,128 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Istari Guard Portfolio - Strategic Acquisition</title>
-    <!-- Load Tailwind CSS -->
+    <title>ISTARI GUARD DOMAIN PORTFOLIO - FOR SALE</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <style>
-        /* Custom styles for the button effect */
-        .buy-now-button {
-            transition: all 0.2s ease-in-out;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7; /* Light background for professionalism */
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
         }
-        .buy-now-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        .container-card {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            width: 100%;
+            border: 1px solid #e0e0e0;
         }
-        .hero-bg {
-            /* Deep, professional background */
-            background: linear-gradient(135deg, #1f2937 0%, #0f172a 100%);
+        h1 {
+            font-weight: 800;
+            color: #1f2937;
+            text-align: center;
         }
-        .card {
-            backdrop-filter: blur(10px);
-            background-color: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+        h2 {
+            font-weight: 700;
+            color: #4f46e5; /* Primary accent color */
+            text-align: center;
+        }
+        .bundle-price-box {
+            background-color: #f3f4f6; /* Light gray background */
+            border: 2px solid #4f46e5;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .domain-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        .domain-item {
+            padding: 1rem;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            background-color: #ffffff;
+            transition: box-shadow 0.2s;
+        }
+        .domain-item:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .domain-title {
+            font-weight: 700;
+            color: #1f2937;
+            font-size: 1.125rem;
+            margin-bottom: 0.5rem;
+        }
+        .domain-role {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #4f46e5;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 0.25rem;
+            margin-bottom: 0.5rem;
+        }
+        .btn-inquire {
+            background-color: #4f46e5;
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 6px;
+            font-weight: 700;
+            transition: background-color 0.2s;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .btn-inquire:hover {
+            background-color: #4338ca;
+        }
+        .narrative-section {
+            background-color: #fef3c7; /* Light yellow background */
+            border-left: 5px solid #f59e0b;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
         }
     </style>
 </head>
-<body class="hero-bg min-h-screen flex items-center justify-center font-sans p-4">
-
-    <div class="max-w-4xl w-full mx-auto p-8 rounded-xl shadow-2xl card text-white">
-
-        <header class="text-center mb-10">
-            <h1 class="text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-500">
-                The Istari Guard Portfolio
-            </h1>
-            <p class="mt-3 text-xl font-light text-gray-300">
-                Four Premium Domains. One Powerful Brand Narrative.
-            </p>
+<body>
+    <div class="container-card">
+        <header class="text-center pb-6 border-b border-gray-200">
+            <h1 class="text-4xl sm:text-5xl tracking-tight mb-2">ISTARI GUARD DOMAIN PORTFOLIO</h1>
+            <p class="text-xl text-gray-500">Four Strategic Names — One Exclusive Bundle</p>
         </header>
 
-        <!-- Price and Call to Action -->
-        <div class="text-center mb-10">
-            <p class="text-4xl font-bold text-teal-300">
-                $19,999 USD
-            </p>
-            <p class="text-lg text-gray-400 mt-1 mb-6">(Sold exclusively as a complete bundle)</p>
-
-            <a href="mailto:jcb817832000@gmail.com?subject=Inquiry%20%7C%20Istari%20Guard%20Portfolio%20Acquisition%20($19,999)"
-               class="buy-now-button inline-block px-10 py-4 text-xl font-semibold rounded-lg bg-cyan-600 hover:bg-cyan-500 transition-all text-white shadow-lg uppercase tracking-wider">
-                Inquire About Acquisition
+        <!-- Pricing and Call to Action -->
+        <section class="bundle-price-box">
+            <h2 class="text-3xl font-extrabold text-gray-800">Exclusive Bundle Price: $19,999 USD</h2>
+            <p class="text-lg text-red-600 font-semibold mt-2">Acquire the ultimate narrative asset for the Digital Age.</p>
+            <a href="mailto:jcb817832000@gmail.com?subject=Inquiry%20About%20ISTARI%20GUARD%20Domain%20Portfolio" class="btn-inquire mt-4">
+                INQUIRE ABOUT ACQUISITION
             </a>
-        </div>
-
-        <!-- Narrative Section -->
-        <section class="mb-10 p-6 rounded-lg bg-gray-800/50">
-            <h2 class="text-3xl font-bold text-teal-400 mb-4 border-b border-teal-700 pb-2">The Brand Narrative: The Protector vs. Surveillance</h2>
-            <p class="text-lg text-gray-300 leading-relaxed">
-                This exclusive domain portfolio is built on the mythic conflict between **Gandalf the Protector** (The Istari) and the forces of ubiquitous surveillance (represented by the **Palantír**).
-            </p>
-            <p class="text-lg text-gray-300 leading-relaxed mt-3">
-                For a SASE/Security company like Cato Networks, this narrative offers an immediate, universally recognized, and powerful metaphor for **Trust, Security, and Cloud Protection**. It instantly translates complex networking and security features into a simple, compelling story: **"We are your Digital Protector."**
-            </p>
+            <p class="text-sm text-gray-500 mt-2">All transactions managed via secure third-party Escrow.</p>
         </section>
 
-        <!-- Domain List Section -->
-        <section class="mb-10">
-            <h2 class="text-3xl font-bold text-teal-400 mb-6">The 4-Domain Bundle: Strategic Alignment</h2>
-            <div class="space-y-6">
-
-                <!-- Domain 1 -->
-                <div class="card p-5 rounded-xl flex items-center space-x-4">
-                    <span class="text-3xl text-yellow-400">✨</span>
-                    <div>
-                        <p class="text-2xl font-semibold text-white">Mithrandir.world (Flagship & PR)</p>
-                        <p class="text-gray-400 mt-1">
-                            The "Grey Pilgrim." The primary, high-value domain. Ideal for an enterprise-level thought leadership blog or flagship security service launch.
-                        </p>
-                    </div>
+        <!-- Domains -->
+        <section class="mt-8">
+            <h3 class="text-2xl font-bold text-gray-700 mb-4 border-b pb-2">Portfolio Assets and Strategic Roles</h3>
+            
+            <div class="domain-grid">
+                
+                <!-- Domain 1: mithrandir.world -->
+                <div class="domain-item">
+                    <div class="domain-title">mithrandir.world</div>
+                    <div class="domain-role">Flagship Identity & PR</div>
+                    <p class="text-sm text-gray-600">
+                        The "Grey Pilgrim." The primary, high-value ideal for an enterprise-level thought leadership platform or flagship security service launch.
+                    </p>
                 </div>
 
-                <!-- Domain 2 -->
-                <div class="card p-5 rounded-xl flex items-center space-x-4">
-                    <span class="text-3xl text-red-400">🛒</span>
-                    <div>
-                        <p class="text-2xl font-semibold text-white">Olorin.shop (E-Commerce & Licensing)</p>
-                        <p class="text-gray-400 mt-1">
-                            Gandalf's original name. Perfect for a secure online store selling specialized hardware, security training, or branded merchandise.
-                        </p>
-                    </div>
+                <!-- Domain 2: olorin.shop (Corrected Content) -->
+                <div class="domain-item">
+                    <div class="domain-title">olorin.shop</div>
+                    <div class="domain-role">E-Commerce & Licensing</div>
+                    <p class="text-sm text-gray-600">
+                        Refers to <strong>Olorin</strong>, Gandalf's <strong>Maia name</strong> (his original, angelic identity). Perfect for a secure online store selling specialized hardware, security training, or licensed merchandise.
+                    </p>
                 </div>
 
-                <!-- Domain 3 -->
-                <div class="card p-5 rounded-xl flex items-center space-x-4">
-                    <span class="text-3xl text-blue-400">⚙️</span>
-                    <div>
-                        <p class="text-2xl font-semibold text-white">Tharkun.net (Infrastructure & Tech)</p>
-                        <p class="text-gray-400 mt-1">
-                            The name used in Dwarf culture. Excellent fit for technical documentation, developer portals, or infrastructure-focused services (e.g., SASE backbone).
-                        </p>
-                    </div>
+                <!-- Domain 3: tharkun.net -->
+                <div class="domain-item">
+                    <div class="domain-title">tharkun.net</div>
+                    <div class="domain-role">Infrastructure & Tech Portal</div>
+                    <p class="text-sm text-gray-600">
+                        The name used in Dwarf culture (implying deep engineering and reliability). Excellent for technical documentation, developer portals, or infrastructure-focused services.
+                    </p>
                 </div>
 
-                <!-- Domain 4 -->
-                <div class="card p-5 rounded-xl flex items-center space-x-4">
-                    <span class="text-3xl text-green-400">📣</span>
-                    <div>
-                        <p class="text-2xl font-semibold text-white">Incanus.org (Advocacy & Education)</p>
-                        <p class="text-gray-400 mt-1">
-                            The name used in the South. Ideal for a non-profit foundation, security research group, or a data-privacy advocacy initiative.
-                        </p>
-                    </div>
+                <!-- Domain 4: incanus.org -->
+                <div class="domain-item">
+                    <div class="domain-title">incanus.org</div>
+                    <div class="domain-role">Advocacy & Education</div>
+                    <p class="text-sm text-gray-600">
+                        The name used in the South. Ideal for a non-profit foundation, security research group, or a data-privacy advocacy initiative.
+                    </p>
                 </div>
 
             </div>
         </section>
 
-        <!-- Transaction Details -->
-        <footer class="text-center mt-10 border-t border-gray-700 pt-6">
-            <p class="text-lg font-medium text-gray-400">Transaction & Security</p>
-            <ul class="text-sm text-gray-500 mt-2 list-none p-0">
-                <li>• All transfers handled via secure Escrow.com.</li>
-                <li>• Serious inquiries only.</li>
-            </ul>
-        </footer>
+        <!-- Strategic Narrative -->
+        <section class="narrative-section">
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">The Strategic Narrative: The Protector vs. Surveillance</h3>
+            <p class="text-base text-gray-700 leading-relaxed">
+                This exclusive domain portfolio is built on the mythic conflict between <strong>"Gandalf the Protector" (The Istari)</strong> and the forces of ubiquitous surveillance (represented by the <strong>"Palantír"</strong>).
+            </p>
+            <p class="text-base text-gray-700 leading-relaxed mt-2">
+                Acquiring this asset allows a company to instantly translate complex security and privacy features into a simple, compelling story: <strong class="text-red-600">"We are your Digital Protector."</strong>
+            </p>
+        </section>
+        
     </div>
+</body>
+</html>
 
 </body>
 </html>
