@@ -3,141 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Istari Guard Domain Portfolio - Exclusive Bundle</title>
+    <title>The Istari Guard Portfolio | Strategic Digital Asset Acquisition</title>
+    <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Inter Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f7f8f9;
-            color: #1f2937;
+            background-color: #f7f9fb;
         }
-        .card {
-            background-color: #ffffff;
-            border: 1px solid #e5e7eb;
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        .text-mythic {
+            color: #4a5568; /* Dark Gray */
         }
-        .header-bg {
-            background-color: #111827; /* Darker blue/gray */
-            color: white;
-            padding: 3rem 0;
-            border-top-left-radius: 0.5rem;
-            border-top-right-radius: 0.5rem;
+        .btn-primary {
+            transition: all 0.2s;
         }
-        .text-accent {
-            color: #0d9488; /* Teal accent */
-        }
-        .highlight-box {
-            background-color: #f3f4f6;
-            padding: 1rem;
-            border-radius: 0.5rem;
-            border-left: 4px solid #0d9488;
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
-<body class="min-h-screen flex items-center justify-center p-4 sm:p-6">
+<body class="min-h-screen flex flex-col items-center justify-center p-4">
 
-    <div class="w-full max-w-4xl card rounded-xl overflow-hidden">
-        
-        <!-- Header & Price Block -->
-        <div class="header-bg text-center">
-            <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-2">
-                ISTARI GUARD DOMAIN PORTFOLIO
+    <!-- Main Content Card -->
+    <div class="max-w-4xl w-full bg-white shadow-2xl rounded-xl p-8 md:p-12 border-t-8 border-indigo-600">
+        <header class="text-center mb-10">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-gray-800 tracking-tight mb-2">
+                The Istari Guard Portfolio
             </h1>
-            <p class="text-lg font-medium text-gray-300">Four Strategic Names - One Exclusive Bundle</p>
+            <p class="text-xl text-indigo-600 font-semibold">
+                Strategic Digital Asset Acquisition
+            </p>
+        </header>
 
-            <div class="mt-8 bg-white text-gray-800 p-4 sm:p-6 rounded-lg shadow-xl inline-block">
-                <p class="text-2xl sm:text-3xl font-bold">Bundle Price (4 Domains): <span class="text-red-600">$19,999 USD</span></p>
-                <button onclick="document.getElementById('inquire_modal').classList.remove('hidden')" class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-150 shadow-md">
-                    INQUIRE ABOUT ACQUISITION
-                </button>
-            </div>
+        <!-- Pricing and Call to Action -->
+        <div class="text-center mb-10">
+            <p class="text-gray-500 text-lg mb-4">
+                Exclusive Bundle Price (4 Domains):
+            </p>
+            <p class="text-6xl font-bold text-gray-900 mb-6">
+                $19,999 <span class="text-2xl text-gray-500 font-normal">USD</span>
+            </p>
+            <button id="inquire-button" class="btn-primary bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg">
+                INQUIRE ABOUT ACQUISITION
+            </button>
         </div>
 
-        <!-- Content Section -->
-        <div class="p-6 sm:p-10 space-y-8">
-
-            <!-- The Strategic Narrative (CANONICALLY CORRECT) -->
-            <div class="space-y-4">
-                <h2 class="text-3xl font-bold text-gray-900 border-b pb-2 text-accent">
-                    The Brand Narrative: The Istari vs. Surveillance
+        <!-- Strategic Narrative -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 border-t pt-8">
+            <div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                    <svg class="w-6 h-6 text-indigo-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.192-2.058-.512-3.004z"></path></svg>
+                    The Strategic Narrative
                 </h2>
-                <div class="highlight-box">
-                    <p class="text-lg text-gray-700 leading-relaxed">
-                        This exclusive domain portfolio is built on the mythic conflict between **The Istari (sent to counsel and assist)**, personified by Gandalf, and the forces of pervasive surveillance (represented by the "Palantír").
-                    </p>
-                    <p class="text-lg text-gray-700 leading-relaxed mt-3">
-                        Acquiring this asset allows a company to instantly translate complex security, reliability, and privacy features into a simple, compelling story: **"We are your Digital Guardian."**
-                    </p>
-                </div>
+                <p class="text-mythic mb-4">
+                    This exclusive domain portfolio is built on the mythic conflict between **"Gandalf the Protector" (The Istari)** and the forces of ubiquitous surveillance (represented by the "Palantír").
+                </p>
+                <p class="text-mythic">
+                    Acquiring this asset allows a company to instantly translate complex security, reliability, and privacy features into a simple, compelling story: **"We are your Digital Protector."**
+                </p>
             </div>
 
-            <!-- Domain Bundle Alignment -->
-            <div class="space-y-4">
-                <h2 class="text-3xl font-bold text-gray-900 border-b pb-2 text-accent">
-                    The 4-Domain Bundle: Strategic Alignment
+            <!-- Domain List -->
+            <div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                    <svg class="w-6 h-6 text-indigo-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                    The Four Core Assets
                 </h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-                    <!-- Mithrandir -->
-                    <div class="p-4 bg-gray-50 rounded-lg shadow-sm border border-gray-200">
-                        <h3 class="text-xl font-semibold mb-1">mithrandir.world <span class="text-sm font-normal text-gray-500">(Flagship Brand)</span></h3>
-                        <p class="text-gray-600">The most well-known name. Perfect for the main corporate brand, a dedicated B2B security service, or global marketing initiative.</p>
-                    </div>
-
-                    <!-- Tharkun -->
-                    <div class="p-4 bg-gray-50 rounded-lg shadow-sm border border-gray-200">
-                        <h3 class="text-xl font-semibold mb-1">tharkun.net <span class="text-sm font-normal text-gray-500">(Infrastructure & Tech Portal)</span></h3>
-                        <p class="text-gray-600">The name used in Dwarf culture, implying deep engineering, resilience, and reliability. Excellent for technical documentation or developer portals.</p>
-                    </div>
-
-                    <!-- Olorin -->
-                    <div class="p-4 bg-gray-50 rounded-lg shadow-sm border border-gray-200">
-                        <h3 class="text-xl font-semibold mb-1">olorin.shop <span class="text-sm font-normal text-gray-500">(E-Commerce & Licensing)</span></h3>
-                        <p class="text-gray-600">Gandalf's original Maia (angelic) name. Perfect for a secure online store selling specialized hardware, security training, or licensed merchandise.</p>
-                    </div>
-
-                    <!-- Incanus -->
-                    <div class="p-4 bg-gray-50 rounded-lg shadow-sm border border-gray-200">
-                        <h3 class="text-xl font-semibold mb-1">incanus.org <span class="text-sm font-normal text-gray-500">(Advocacy & Community)</span></h3>
-                        <p class="text-gray-600">The name used in the South. Ideal for a non-profit foundation, security research group, or a data-privacy advocacy initiative.</p>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Call to Action Footer -->
-            <div class="pt-6 border-t mt-8 text-center">
-                <p class="text-xl font-medium text-gray-700 mb-4">Secure the ultimate narrative asset for your digital protection strategy.</p>
-                <button onclick="document.getElementById('inquire_modal').classList.remove('hidden')" class="bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-lg py-3 px-12 rounded-lg transition duration-150 shadow-xl transform hover:scale-[1.02]">
-                    INQUIRE ABOUT ACQUISITION
-                </button>
+                <ul class="space-y-3">
+                    <li class="p-3 bg-gray-50 rounded-lg shadow-sm border border-gray-100">
+                        <span class="font-bold text-indigo-600">mithrandir.world</span>: The Global Guide (Flagship, Trust)
+                    </li>
+                    <li class="p-3 bg-gray-50 rounded-lg shadow-sm border border-gray-100">
+                        <span class="font-bold text-indigo-600">tharkun.net</span>: The Resilient Engineer (Technical, Developer)
+                    </li>
+                    <li class="p-3 bg-gray-50 rounded-lg shadow-sm border border-gray-100">
+                        <span class="font-bold text-indigo-600">olorin.shop</span>: The Hidden Identity (Commerce, Product Extension)
+                    </li>
+                    <li class="p-3 bg-gray-50 rounded-lg shadow-sm border border-gray-100">
+                        <span class="font-bold text-indigo-600">incanus.org</span>: The Authority/Advocate (Governance, Thought Leadership)
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
 
-    <!-- Modal for Inquiry (Simple) -->
-    <div id="inquire_modal" class="fixed inset-0 bg-gray-900 bg-opacity-75 hidden flex items-center justify-center p-4 z-50">
-        <div class="bg-white p-6 sm:p-8 rounded-xl max-w-md w-full shadow-2xl">
-            <h3 class="text-2xl font-bold mb-4">Inquire About the Portfolio</h3>
-            <p class="text-gray-700 mb-6">
-                Thank you for your interest in the Istari Guard Portfolio. Please reach out directly to discuss acquisition.
+    <!-- Modal (Hidden by default) -->
+    <div id="acquisition-modal" class="fixed inset-0 bg-gray-900 bg-opacity-75 hidden items-center justify-center p-4 z-50" onclick="closeModal(event)">
+        <div class="bg-white rounded-xl shadow-2xl p-6 md:p-8 w-full max-w-md" onclick="event.stopPropagation()">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Inquire About Acquisition</h3>
+            <p class="text-gray-600 mb-6">
+                Thank you for your interest in the Istari Guard Portfolio. Please fill in your name and company/email to initiate a confidential discussion.
             </p>
-            <!-- UPDATED TO A GENERIC EMAIL ADDRESS NOT TIED TO THE DOMAIN SALE -->
-            <p class="text-lg font-semibold mb-2">[Your Name or Company]</p>
-            <p class="text-lg text-accent font-mono">jcb817832000@gmail.com (← REPLACE THIS WITH YOUR PERMANENT EMAIL)</p>
-            <button onclick="document.getElementById('inquire_modal').classList.add('hidden')" class="mt-6 bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded-lg">
+
+            <!-- Contact Information Display -->
+            <div class="bg-gray-100 p-4 rounded-lg mb-6">
+                <p class="text-sm font-semibold text-gray-600 mb-1">Portfolio Manager Contact:</p>
+                <!-- USER'S REQUESTED EMAIL ADDRESS -->
+                <p class="text-lg font-bold text-indigo-600">
+                    jcb817832000@gmail.com
+                </p>
+                <p class="text-xs text-gray-500 mt-2">
+                    (Please use the email above for direct correspondence)
+                </p>
+            </div>
+
+            <button onclick="closeModal()" class="w-full bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded-lg">
                 Close
             </button>
         </div>
     </div>
 
     <script>
-        // Simple function to toggle modal if needed for external JS calls
-        document.addEventListener('DOMContentLoaded', () => {
-            window.showInquiryModal = () => {
-                document.getElementById('inquire_modal').classList.remove('hidden');
-            };
+        const inquireButton = document.getElementById('inquire-button');
+        const modal = document.getElementById('acquisition-modal');
+
+        function openModal() {
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeModal(event) {
+            // Check if event is passed and if it's the modal background
+            if (event && event.target !== modal) return;
+            modal.classList.remove('flex');
+            modal.classList.add('hidden');
+        }
+
+        // Attach event listener to button
+        inquireButton.addEventListener('click', openModal);
+
+        // Add keyboard escape closing functionality
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
         });
     </script>
 </body>
